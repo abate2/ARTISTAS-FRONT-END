@@ -8,20 +8,12 @@ export default class InicioPagina extends React.Component {
             <>
                 <h2>Inicio</h2>
                 <p>Bienvenido a mi página de artistas favoritos :D de aquí almacenaré todos los artistas que mas me gustan para nunca olvidarlos</p>
-                <Artista 
-                nombre="Dire Straits" 
-                img="./images/theWho.png"
-                descripcion="This is a pretty famous band that  mostly is recognized by its rock rhythms"/>
                 
                 <Artista 
                 nombre="The Who" 
                 img="./images/theWho.png"
                 descripcion="This is a pretty famous band that  mostly is recognized by its rock rhythms"/>
                 
-                <Artista 
-                nombre="Jack Johnson" 
-                img="./images/theWho.png"
-                descripcion="This is a pretty famous band that  mostly is recognized by its rock rhythms"/>
             </>
         )
     }

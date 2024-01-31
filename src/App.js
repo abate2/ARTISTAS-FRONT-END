@@ -1,7 +1,7 @@
 import './App.css';
 
 import InicioPagina from './paginas/InicioPagina.js';
-import ContactoPagina from './paginas/Contacto.Pagina.js';
+import ContactoPagina from './paginas/ContactoPagina.js';
 import ArtistasPagina from './paginas/ArtistasPagina.js';
 
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
@@ -9,6 +9,8 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Menu from "./componentes/Menu.js"
 import Footer from './footer.js';
 import Sidebar from './sidebar.js';
+import SobreNosotros from './paginas/SobreNosotrosPagina.js';
+import Opina from './paginas/OpinaPagina.js';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
             <Route path='/' element={<InicioPagina />} /> {/*here we establish the path(could be anything that  we want to write) to comunicate with the element that will call the component*/}
             <Route path='/contacto' element={<ContactoPagina />} />
             <Route path='/artistas' element={<ArtistasPagina />}/>
+            <Route path='/sobreNosotros' element={<SobreNosotros/>}/>
+            <Route path='/opina' element={<Opina/>}/> 
           </Routes>
       
 
