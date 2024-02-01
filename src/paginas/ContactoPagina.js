@@ -44,4 +44,4 @@ export default class ContactoPagina extends React.Component {
     }
 }
 
-{/*event.target.value is used to capture the info from an input*/}
+/*event.target.value is used to capture the info from an input*/

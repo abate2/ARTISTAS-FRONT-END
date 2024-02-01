@@ -11,6 +11,7 @@ import Footer from './footer.js';
 import Sidebar from './sidebar.js';
 import SobreNosotros from './paginas/SobreNosotrosPagina.js';
 import Opina from './paginas/OpinaPagina.js';
+import LanzamientosPagina from './paginas/Lanzamientos.js';
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
             <Route path='/contacto' element={<ContactoPagina />} />
             <Route path='/artistas' element={<ArtistasPagina />}/>
             <Route path='/sobreNosotros' element={<SobreNosotros/>}/>
-            <Route path='/opina' element={<Opina/>}/> 
+            <Route path='/opina' element={<Opina/>}/>
+            <Route path='/lanzamientos' element={<LanzamientosPagina/>}/>
           </Routes>
       
 
